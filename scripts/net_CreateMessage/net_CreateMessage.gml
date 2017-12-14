@@ -1,5 +1,5 @@
 /// @description Build a network message to be sent and return it
-/// @function net_CreateMessageMap(messageType, key, value, ..., ...)
+/// @function net_CreateMessage(messageType, key, value, ..., ...)
 /// @param {enum} NetMessageType Type of Message
 /// @param {String} [Key] to add
 /// @param {Object} [Value] to associate with previous key

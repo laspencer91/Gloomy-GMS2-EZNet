@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "a6f8d992-ec5a-4e81-b26a-1a96a8c3b352",
+            "Value": {
+                "id": "d6486755-6c5a-4055-af38-639501b10cd9",
+                "resourcePath": "scripts\\net_CreateSocket\\net_CreateSocket.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a8707889-e99b-4a42-a771-cea22470a590",
             "Value": {
                 "id": "521dc9f3-dfc2-4ead-bd6e-fc888c100bbb",
@@ -314,7 +322,7 @@
             "Key": "fecad629-6323-4c09-943f-5db1f0400203",
             "Value": {
                 "id": "7cca99c8-cd7f-431e-ba7c-a2efdb166a86",
-                "resourcePath": "scripts\\net_CreateMessageMap\\net_CreateMessageMap.yy",
+                "resourcePath": "scripts\\net_CreateMessage\\net_CreateMessage.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -337,6 +345,7 @@
         "85f841ac-7d94-4e4e-a1d6-b9d0338a47f1",
         "39b8c2b1-93da-4aff-8be5-d4c1b028b05b",
         "7cf4a372-5842-4540-9f6c-65ea35a608e7",
+        "a6f8d992-ec5a-4e81-b26a-1a96a8c3b352",
         "e54e3d1c-cbcc-422d-9d71-ac00ea9feb09",
         "7e677d7d-85f0-422b-9379-22ddeaa7d5a0"
     ],

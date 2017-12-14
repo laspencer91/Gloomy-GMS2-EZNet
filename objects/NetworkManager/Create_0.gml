@@ -1,6 +1,12 @@
 /// @description Create Connect Packet
 
-net_Init(get_integer("What port to use on your computer?", 3223));
+success = net_Init(3224, 3300);
+
+if (success)
+	show_message("Successfully created socket on port " + string(global.myNetPort));
+else
+	show_error("Unable to find available port in giving range, no socket created", false);
+
 serverPort = get_integer("What port do you want to send data to?", 3224);
 
 net_AddMessageHandler(NetMessageType.connect, net_HandleConnectRequest);

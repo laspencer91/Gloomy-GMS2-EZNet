@@ -5,4 +5,4 @@
 var _messageType	 = argument0;
 var _scriptReference = argument1;
 
-global.networkMessageHandlers[? _messageType] = _scriptReference;
+global.messageHandlers[? _messageType] = _scriptReference;
